@@ -1,0 +1,8 @@
+/db.sqlite3
+/nutritionist/settings.py
+/manage.py
+/venv/
+/nutritionist/admin/
+/venv/Lib/
+/venv/Scripts/
+/main/migrations/

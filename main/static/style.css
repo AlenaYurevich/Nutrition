@@ -1,0 +1,43 @@
+@charset "UTF-8";
+.gold {
+    margin: 20px 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6vw 0;
+    background: radial-gradient(ellipse at center, #515F3B 0%,#000000 100%);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+}
+.gold span {
+    color: #cfc09f;
+    font-family: 'MonteCarlo', cursive;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 9vw;
+    letter-spacing: 1vw;
+    line-height: 1.4;
+    margin: 0;
+    font-weight: 400;
+    text-shadow: -1px 0 1px #c6bb9f, 0 1px 1px #c6bb9f, 5px 5px 10px rgba(0, 0, 0, 0.4), -5px -5px 10px rgba(0, 0, 0, 0.4);
+}
+.gold span + span {
+    font-size: 4vw;
+    font-family: 'Playfair Display', serif;
+}
+.gold span + span + span {
+    font-size: 3vw;
+    font-family: 'Roboto', serif;
+
+}
+.gold span:before {
+    content: attr(data-double);
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(to bottom, #cfc09f 14%,#634f2c 16%, #cfc09f 20%, #cfc09f 22%,#ffecb3 40%,#3a2c0f 84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+}
